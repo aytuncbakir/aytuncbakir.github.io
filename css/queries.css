@@ -258,7 +258,7 @@ rem an em do NOT depend on html font-size in media queries! Instead, 1rem = 1em 
   }
 
   .logos img {
-    height: 2.4rem;
+    height: 12rem;
   }
 
   .step-img-box:nth-child(2) {
