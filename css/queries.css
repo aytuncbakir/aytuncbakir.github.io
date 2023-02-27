@@ -222,6 +222,11 @@ rem an em do NOT depend on html font-size in media queries! Instead, 1rem = 1em 
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  .logos img {
+    height: 6rem;
+    width: 12rem;
+  }
 }
 
 /**************************************/
@@ -258,7 +263,7 @@ rem an em do NOT depend on html font-size in media queries! Instead, 1rem = 1em 
   }
 
   .logos img {
-    height: 12rem;
+    height: 1.2rem;
   }
 
   .step-img-box:nth-child(2) {
