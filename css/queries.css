@@ -185,7 +185,7 @@ rem an em do NOT depend on html font-size in media queries! Instead, 1rem = 1em 
   }
 
   .logos img {
-    height: 6rem;
+    height: 8rem;
     width: 6rem;
   }
 }
