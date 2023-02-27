@@ -183,6 +183,11 @@ rem an em do NOT depend on html font-size in media queries! Instead, 1rem = 1em 
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .logos img {
+    height: 6rem;
+    width: 12rem;
+  }
 }
 
 /**************************************/
