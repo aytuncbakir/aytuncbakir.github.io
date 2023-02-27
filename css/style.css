@@ -423,7 +423,7 @@
 }
 
 .pricing-plan--copmlete::after {
-  content: 'Best value';
+  content: 'Live well';
   position: absolute;
   top: 6%;
   right: -18%;
