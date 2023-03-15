@@ -6,7 +6,7 @@
 
     <meta
       name="description"
-      content="=This is a portfolio website. You cal get more information about me."
+      content="=This is a portfolio website. You can get more information about me."
     />
 
     <!-- Always include this line of code!!! -->
@@ -50,21 +50,64 @@
     <header class="header">
       <a href="#">
         <img
-          src="img/omnifood-logo.png"
-          alt="Omnifood logo"
+          src="img/aytuncbakir.png"
+          alt="aytuncbakir"
           class="logo page-logo"
         />
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">Skills </a></li>
+          <li><a class="main-nav-link" href="#how">Skills</a></li>
           <li><a class="main-nav-link" href="#meals">Projects</a></li>
           <li>
             <a class="main-nav-link" href="#testimonials">References</a>
           </li>
           <li><a class="main-nav-link" href="#pricing">More about me</a></li>
-          <li><a class="main-nav-link" href="">Resume</a></li>
+          <div class="dropdown">
+            <li><a class="main-nav-link droplink" href="">Resume</a></li>
+            <div class="dropdown-content">
+              <a 
+                  class="main-nav-link resume" 
+                  href="https://drive.google.com/file/d/1Vqf0fMCNnzob8j4Gj5r8owchPXWA0Qt1/view?usp=share_link"
+                  onclick="window.open('https://drive.google.com/file/d/1Vqf0fMCNnzob8j4Gj5r8owchPXWA0Qt1/view?usp=share_link')"
+              >
+              <div class="resume-container">
+                <ion-icon name="logo-google-playstore"></ion-icon> Resume
+              </div>
+              </a>
+              <a 
+                  class="main-nav-link resume" 
+                  href="https://www.linkedin.com/in/aytun%C3%A7-bak%C4%B1r-414a7a1a6/"
+                  onclick="window.open('https://www.linkedin.com/in/aytun%C3%A7-bak%C4%B1r-414a7a1a6/')"
+              >
+              <div class="resume-container">
+                <ion-icon class="social-icon" name="logo-linkedin"></ion-icon> Linkedin
+              </div>
+              </a>
+              <a 
+                  class="main-nav-link resume" 
+                  href="https://github.com/aytuncbakir?tab=repositories"
+                  onclick="window.open('https://github.com/aytuncbakir?tab=repositories')"
+              >
+              <div class="resume-container">
+                <ion-icon class="social-icon" name="logo-github"></ion-icon> GitHub
+              </div>
+            </a>
+            <div class="dropdown-content">
+              <a 
+                  class="main-nav-link resume" 
+                  href="https://drive.google.com/file/d/1wvHMFgvU3BI6PpjR8h9WgiMzUcFHJfnP/view?usp=share_link"
+                  onclick="window.open('https://drive.google.com/file/d/1wvHMFgvU3BI6PpjR8h9WgiMzUcFHJfnP/view?usp=share_link')"
+              >
+              <div class="resume-container">
+                <ion-icon class="social-icon" name="logo-buffer"></ion-icon> Certificates
+              </div>
+            
+            </a>
+            </div>
+            </div>
+          </div>
           <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
         </ul>
       </nav>
@@ -424,8 +467,8 @@
           <div class="testimonials">
             <figure class="testimonial">
               <img
-                src="img/customers/dave.jpg"
-                alt="Photo of customer Dave Bryson"
+                src="img/customers/muhit.jpg"
+                alt="Photo of customer muhit paksoy"
                 class="testimonial-img"
               />
               <blockquote class="testimonial-text">
@@ -448,8 +491,8 @@
 
             <figure class="testimonial">
               <img
-                src="img/customers/ben.jpg"
-                alt="Photo of customer Dave Bryson"
+                src="img/customers/tauno.jpg"
+                alt="Photo of customer tauno lakkala"
                 class="testimonial-img"
               />
               <blockquote class="testimonial-text">
@@ -472,28 +515,46 @@
 
             <figure class="testimonial">
               <img
-                src="img/customers/steve.jpg"
-                alt="Photo of customer Dave Bryson"
+                src="img/customers/jouni.jpg"
+                alt="Photo of customer jouni huotari"
                 class="testimonial-img"
               />
               <blockquote class="testimonial-text">
-                Omnifood is a life saver! I just started a company, so there's
-                no time for cooking. I couldn't live without my daily meals now!
+                Yliopettaja JAMK:ssa, Teknologia / IT-instituutti. Principal Lecturer. Jyväskylä.
               </blockquote>
-              <p class="testimonial-name">&mdash; Steve Miller</p>
+              <p class="testimonial-name">&mdash; Jouni Huotari, 
+                <strong>
+                  <a
+                    href="https://homes.jamk.fi/~huojo/"
+                    class="footer-link"
+                    onclick="window.open('https://homes.jamk.fi/~huojo/')"
+                  >
+                    JAMK
+                  </a>
+                </strong>
+              </p>
             </figure>
 
             <figure class="testimonial">
               <img
-                src="img/customers/hannah.jpg"
-                alt="Photo of customer Dave Bryson"
+                src="img/customers/tuula.jpg"
+                alt="Photo of customer Tuula kotioski"
                 class="testimonial-img"
               />
               <blockquote class="testimonial-text">
-                I got Omnifood for the whole family, and it frees up so much
-                time! Plus, everything is organic and vegan and without plastic.
+                Senior Lecturer, Internship Coordinator and Career Tutor at JAMK. Jyväskylä.
               </blockquote>
-              <p class="testimonial-name">&mdash; Hannah Smith</p>
+              <p class="testimonial-name">&mdash; Tuula Kotikoski, 
+                <strong>
+                  <a
+                    href="https://www.linkedin.com/in/tuula-harriet-kotikoski/?trk=public_profile_browsemap&originalSubdomain=fi"
+                    class="footer-link"
+                    onclick="window.open('https://www.linkedin.com/in/tuula-harriet-kotikoski/?trk=public_profile_browsemap&originalSubdomain=fi')"
+                  >
+                    JAMK
+                  </a>
+                </strong>
+              </p>
             </figure>
           </div>
         </div>
@@ -644,7 +705,7 @@
             <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
             <p class="feature-title">Never give up!</p>
             <p class="feature-text">
-              Never give up and be determined. In this way, you can reach your
+              Never give up. Always be determined. In this way, you can reach your
               goal.
             </p>
           </div>
@@ -807,8 +868,17 @@
         <nav class="nav-col">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Linkedin</a></li>
-            <li><a class="footer-link" href="#">Github</a></li>
+            <li><a 
+              class="footer-link" 
+              href="https://www.linkedin.com/in/aytun%C3%A7-bak%C4%B1r-414a7a1a6/"
+              onclick="window.open('https://www.linkedin.com/in/aytun%C3%A7-bak%C4%B1r-414a7a1a6/')"
+              >Linkedin</a></li>
+            <li><a 
+              href="https://github.com/aytuncbakir?tab=repositories"
+              class="footer-link"
+              onclick="window.open('https://github.com/aytuncbakir?tab=repositories')"
+              
+              >Github</a></li>
             <li><a class="footer-link" href="#">Privacy & terms</a></li>
           </ul>
         </nav>
